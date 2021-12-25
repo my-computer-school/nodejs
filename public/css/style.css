@@ -1,0 +1,86 @@
+	#grid {
+		display:grid;
+		grid-template-columns:180px 1fr;
+	}
+	#grid ul {
+		font-size:20px;
+		margin:1px;
+		border-right-style:solid;
+		border-color:black;
+		border-width:1px;
+		padding:5px;
+		padding-left:30px;
+		width:120px;
+	}
+	#main {
+		font-size:20px;
+		margin:1px;
+//      border-right-style:solid;
+//      border-color:black;
+		border-width:1px;
+		padding:5px;	
+	}
+	.html-tags-table {
+		border-collapse:collapse;
+		border-spacing:0;
+		width:100%;
+		display:table;
+		border:1px solid #ccc;
+	}
+	.html-tags-table tr {
+		border-bottom:1px solid #ddd;
+//      background-color:#fff;
+//      background-color:#E7E9EB;
+	}
+	.html-tags-table th {
+		padding:8px 8px;
+		display:table-cell;
+		text-align:left;
+		vertical-align:top;
+	}
+	.html-tags-table td {
+		padding:8px 8px;
+		display:table-cell;
+		text-align:left;
+		vertical-align:top;
+	}
+	body {
+		font-family:"굴림";
+	}
+	a { 
+		color:black;
+		text-decoration:none;
+	}
+	h1 {
+		font-size:60px;
+		text-align:left;
+		margin:0px;
+		border-bottom-style:solid;
+		border-color:black;
+		border-width:1px;
+		padding:5px;
+	}
+	@media(max-width:1280px) {
+		#grid {
+			display:block;
+		}
+		#grid ul {
+			font-size:20px;
+			margin:1px;
+			border-right-style:none;
+			border-color:black;
+			border-width:1px;
+			padding:5px;
+			padding-left:40px;
+			width:100%;
+		}
+		h1 {
+			font-size:50px;
+			text-align:left;
+			margin:0px;
+			border-bottom-style:solid;
+			border-color:black;
+			border-width:1px;
+			padding:5px;
+		}
+	}
