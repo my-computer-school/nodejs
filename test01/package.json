@@ -1,1 +1,9 @@
-11
+{
+  "name": "test01",
+  "version": "1.0.0",
+  "scripts": {
+      "client": "cd client && npm run start",
+      "server": "nodemon server.js",
+      "dev": "concurrently --kill-others-on-fail \"nodemon server.js\" \"cd client && npm run start\""
+  }
+}
